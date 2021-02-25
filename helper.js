@@ -7,5 +7,6 @@ export const getKeyForQuestion = title => {
   return title
     .toLowerCase()
     .replace(/\s/g, '')
-    .trim();
+    .trim()
+
 };
